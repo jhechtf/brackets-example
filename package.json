@@ -1,0 +1,22 @@
+{
+  "name": "brackets-example",
+  "version": "0.0.1",
+  "description": "Brackets example test for LQ Digital.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build":"node ./node_modules/webpack/bin/webpack.js",
+    "watch":"node ./node_modules/webpack/bin/webpack.js --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.4.1"
+  }
+}
